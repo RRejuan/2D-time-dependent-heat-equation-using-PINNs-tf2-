@@ -10,7 +10,7 @@ The heat equation is a fundamental partial differential equation that describes 
 
 The heat equation in two dimensions is given by:
 
-$\displaystyle \frac{\partial u}{\partial t} = \alpha \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} \right) $ fff
+$\displaystyle \frac{\partial u}{\partial t} = \alpha \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} \right) $
 
 where:
 - $\displaystyle u(x, t) $ is the temperature distribution function, dependent on position $ x $ and time $t$,
@@ -19,7 +19,8 @@ where:
 - $\displaystyle \frac{\partial^2 u}{\partial x^2} $ is the second partial derivative of $ u $ with respect to x.
 - $\displaystyle \frac{\partial^2 u}{\partial y^2} $ is the second partial derivative of $ u $ with respect to y.
 
-$\displaystyle \frac{\partial u}{\partial t} $ is the partial derivative of $ u $ with respect to time
+$\displaystyle \frac{\partial u}{\partial t} $
+is the partial derivative of $ u $ with respect to time
 To solve the heat equation, we also need to specify initial and boundary conditions.
 
 ### Domain
