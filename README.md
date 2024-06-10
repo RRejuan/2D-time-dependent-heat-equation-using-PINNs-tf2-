@@ -14,7 +14,7 @@ $\displaystyle \frac{\partial u}{\partial t} = \alpha \left( \frac{\partial^2 u}
 
 where:
 - u(x, t) is the temperature distribution function, dependent on position x  and time t,
-- $ \alpha $
+- $\displaystyle \alpha $
    is the thermal diffusivity of the material, in this case, it is set
     $ \alpha = 1$
 - $\displaystyle \frac{\partial u}{\partial t} $
