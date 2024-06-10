@@ -42,3 +42,5 @@ The initial temperature distribution inside the square domain is set to 0:
 
 $\[ u(x, y, 0) = 0 \]$
 
+# Results 
+![alt text](https://github.com/RRejuan/2D-time-dependent-heat-equation-using-PINNs-tf2-/blob/main/heat2dpinn.png)
