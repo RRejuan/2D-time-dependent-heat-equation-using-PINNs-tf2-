@@ -13,8 +13,8 @@ The heat equation in two dimension is given by:
 $\displaystyle \frac{\partial u}{\partial t} = \alpha \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} \right) $
 
 where:
-- \( u(x, t) \) is the temperature distribution function, dependent on position \( x \) and time \( t \),
-- \( \alpha \) is the thermal diffusivity of the material, in this case, it is set \( \alpha \) = 1.
+- $\( u(x, t) \)$ is the temperature distribution function, dependent on position $\( x \)$ and time $\( t \)$,
+- $\( \alpha \)$ is the thermal diffusivity of the material, in this case, it is set \( \alpha \) = 1.
 - \( \frac{\partial u}{\partial t} \) is the partial derivative of \( u \) with respect to time,
 - \( \frac{\partial^2 u}{\partial x^2} \) is the second partial derivative of \( u \) with respect to x.
 - \( \frac{\partial^2 u}{\partial y^2} \) is the second partial derivative of \( u \) with respect to y.
