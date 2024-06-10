@@ -10,7 +10,7 @@ The heat equation is a fundamental partial differential equation that describes 
 
 The heat equation in two dimension is given by:
 
-\[ \frac{\partial u}{\partial t} = \alpha \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} \right) \]
+$\[ \frac{\partial u}{\partial t} = \alpha \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} \right) \]$
 
 where:
 - \( u(x, t) \) is the temperature distribution function, dependent on position \( x \) and time \( t \),
