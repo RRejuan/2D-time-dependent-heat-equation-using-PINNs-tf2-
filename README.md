@@ -16,7 +16,7 @@ where:
 - u(x, t) is the temperature distribution function, dependent on position x  and time t,
 - $\displaystyle \alpha $
    is the thermal diffusivity of the material, in this case, it is set
-    $ \alpha = 1$
+    $ \displaystyle \alpha = 1$
 - $\displaystyle \frac{\partial u}{\partial t} $
   is the partial derivative of $ u $ with respect to time,
 - $\displaystyle \frac{\partial^2 u}{\partial x^2} $
