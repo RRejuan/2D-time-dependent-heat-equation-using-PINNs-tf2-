@@ -13,11 +13,11 @@ The heat equation in two dimensions is given by:
 $\displaystyle \frac{\partial u}{\partial t} = \alpha \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} \right) $
 
 where:
-- $ u(x, t) $ is the temperature distribution function, dependent on position $ x $ and time $t$,
-- $\alpha $ is the thermal diffusivity of the material, in this case, it is set $ \alpha = 1$.
-- $ \frac{\partial u}{\partial t} $ is the partial derivative of $ u $ with respect to time,
-- $ \frac{\partial^2 u}{\partial x^2} $ is the second partial derivative of $ u $ with respect to x.
-- $ \frac{\partial^2 u}{\partial y^2} $ is the second partial derivative of $ u $ with respect to y.
+- $\displaystyle u(x, t) $ is the temperature distribution function, dependent on position $ x $ and time $t$,
+- $\displaystyle \alpha $ is the thermal diffusivity of the material, in this case, it is set $ \alpha = 1$.
+- $\displaystyle \frac{\partial u}{\partial t} $ is the partial derivative of $ u $ with respect to time,
+- $\displaystyle \frac{\partial^2 u}{\partial x^2} $ is the second partial derivative of $ u $ with respect to x.
+- $\displaystyle \frac{\partial^2 u}{\partial y^2} $ is the second partial derivative of $ u $ with respect to y.
 
 To solve the heat equation, we also need to specify initial and boundary conditions.
 
@@ -34,7 +34,7 @@ The temperature at the boundaries of the square domain are specified as follows:
 - Top edge: $ T = 0 $
 - Right edge: $ T = 0 $
 
-These temperatures remain constant over time.
+It was then normalized. These temperatures remain constant over time.
 
 ### Initial Condition
 
@@ -43,4 +43,5 @@ The initial temperature distribution inside the square domain is set to 0:
 $\[ u(x, y, 0) = 0 \]$
 
 # Results 
-![alt text](https://github.com/RRejuan/2D-time-dependent-heat-equation-using-PINNs-tf2-/blob/main/heat2dpinn.png)
+![alt text](https://github.com/RRejuan/2D-time-dependent-heat-equation-using-PINNs-tf2-/blob/main/heat2dpinn.png).
+![alt text](https://github.com/RRejuan/2D-time-dependent-heat-equation-using-PINNs-tf2-/blob/main/temperature_evolution.gif)
