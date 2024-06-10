@@ -19,6 +19,7 @@ where:
 - $\displaystyle \frac{\partial^2 u}{\partial x^2} $ is the second partial derivative of $ u $ with respect to x.
 - $\displaystyle \frac{\partial^2 u}{\partial y^2} $ is the second partial derivative of $ u $ with respect to y.
 
+$\displaystyle \frac{\partial u}{\partial t} $ is the partial derivative of $ u $ with respect to time
 To solve the heat equation, we also need to specify initial and boundary conditions.
 
 ### Domain
